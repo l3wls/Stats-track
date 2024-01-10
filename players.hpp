@@ -10,4 +10,8 @@ class Players {
 public:
     Players(string player_name, string player_team, int age);
 
+    string get_player();
+    string get_team();
+    int get_age();
+    
 };
