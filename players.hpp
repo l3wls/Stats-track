@@ -10,8 +10,11 @@ class Players {
 public:
     Players(string player_name, string player_team, int age);
 
+    void set_age(int new_age);
+    void set_player(string new_player);
+    void set_team(string new_team);
+
     string get_player();
     string get_team();
     int get_age();
-    
 };
