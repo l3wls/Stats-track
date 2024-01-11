@@ -5,6 +5,10 @@
 Players::Players(string player_name, string player_team, int ageX)
     : player(player_name), team(player_team), age(ageX){}
 
+Players::~Players()
+{
+    cout << "Goodbye";
+}
 void Players::set_player(string new_player)
 {
     player = new_player;

@@ -9,6 +9,7 @@ class Players {
 
 public:
     Players(string player_name, string player_team, int age);
+    ~Players();
 
     void set_age(int new_age);
     void set_player(string new_player);
