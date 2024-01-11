@@ -3,15 +3,15 @@
 #include "players.hpp"
 
 Players::Players(string player_name, string player_team, int ageX)
-    : player(player_name), team(player_team), age(ageX){}
+    : name(player_name), team(player_team), age(ageX){}
 
 Players::~Players()
 {
     cout << "Goodbye";
 }
-void Players::set_player(string new_player)
+void Players::set_name(string new_name)
 {
-    player = new_player;
+    name = new_name;
 }
 
 void Players::set_team(string new_team)
@@ -24,9 +24,9 @@ void Players::set_age(int age)
     this-> age = age;
 }
 
-string Players::get_player()
+string Players::get_name()
 {
-    return player;
+    return name;
 }
 
 string Players::get_team()

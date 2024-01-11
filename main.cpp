@@ -4,5 +4,7 @@ using namespace std;
 
 int main(){
     
-    cout << "sup broskies";
+    
+    Players kev_dur("Kevin Durant", "Pheonix Suns", 35);
+    cout << kev_dur.get_name();
 }

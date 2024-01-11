@@ -3,7 +3,7 @@
 #include <string>
 
 class Players {
-    string player;
+    string name;
     string team;
     int age;
 
@@ -12,10 +12,10 @@ public:
     ~Players();
 
     void set_age(int new_age);
-    void set_player(string new_player);
+    void set_name(string new_player);
     void set_team(string new_team);
 
-    string get_player();
+    string get_name();
     string get_team();
     int get_age();
 };
