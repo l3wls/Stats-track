@@ -1,6 +1,7 @@
 // Players functions defintions will called upon here
 #include <iostream>
 #include "players.hpp"
+using namespace std;
 
 Players::Players(string player_name, string player_team, int ageX)
     : name(player_name), team(player_team), age(ageX){}

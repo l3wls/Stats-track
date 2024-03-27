@@ -1,6 +1,7 @@
 // This is where the players class and it's method will be at.
 
 #include <string>
+using namespace std;
 
 class Players {
     string name;
